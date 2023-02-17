@@ -8,7 +8,7 @@ paths of the form `m/44\'/461\'/0\'/0/X`, where X is any chosen number.
 
 It is useful when having multiple ledgers so that you can register specific addresses
 in Lotus. The only way now is `lotus wallet
-new secp256k1-ledger` will keep doing +1 on previous derivation paths even if
+new secp256k1-ledger`, but that will keep doing +1 on previous derivation paths even if
 a new Ledger is used, rather than starting from `m/44\'/461\'/0\'/0/0`.
 
 In order to derive the first 20 addresses from a ledger, you can use
